@@ -114,19 +114,25 @@ button:hover {
   /* border: 3px solid orange; */
   padding: 16px;
   gap: 8px;
-  display: flex;
+  /* display: flex; */
   text-align: center;
 }
 
-.randomInfo {
-  background-color: purple;
-  text-align: center;
-  margin: 0 auto;
-  color:#1f2937;
-  display:block;
-}
-
-.info{
+.theInfo{
+    /* float:left; */
     color: #1f2937;
+    /* border: 2px solid red; */
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
 }
 
+.theInfo img{
+  width:200px;
+  height:200px;
+  object-fit: cover;
+  border:4px solid #3882f6;
+  border-radius:20px;
+  margin: 5px 20px 0px 20px;
+
+}
