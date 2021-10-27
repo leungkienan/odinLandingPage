@@ -64,14 +64,15 @@ a:hover {
 /* Front Section */
 #front {
   /* background-color: brown; */
-  padding: 16px;
   /* border: 3px solid orange; */
+  padding: 16px;
   gap: 8px;
   display: flex;
 }
 
 #frontBox {
   width: 50%;
+  height:auto;
   padding: 14px 16px;
   flex: 1;
 }
@@ -84,8 +85,8 @@ a:hover {
 .mainImg {
   border: 2px solid orange;
   width: 100%;
-  /* height: 50%; */
-  /* object-fit: cover; */
+  height: 50%;
+  object-fit: cover;
 }
 
 .mainText {
@@ -111,18 +112,18 @@ button:hover {
 /* Information section */
 
 #info {
-  background-color: #f9faf8;
+  /* display: flex; */
   /* border: 3px solid orange; */
+  background-color: #f9faf8;
   padding: 16px;
   gap: 8px;
-  /* display: flex; */
   text-align: center;
 }
 
 .theInfo {
   /* float:left; */
-  color: #1f2937;
   /* border: 2px solid red; */
+  color: #1f2937;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
