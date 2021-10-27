@@ -1,5 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*/
+* {
+  font-family: "Roboto";
+}
+
 body {
   background-color: #1f2937;
 }
@@ -10,17 +12,22 @@ body {
   font-family: "Roboto";
 }
 
-#hero {
-  text-align: center;
+#hero,
+#front,
+#info,
+#quote,
+#signup,
+#footer {
   margin: auto;
-  width: 65%;
-  padding: 10px;
+  /* width: 65%; */
+  /* padding: 10px; */
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #1f2937;
 }
 li {
   float: left;
@@ -28,19 +35,16 @@ li {
 
 li a {
   display: block;
-  padding: 8px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
+a:hover {
+  color: powderblue;
+}
 
 .floatRight {
   float: right;
-}
-
-.logo,
-.secondaryText {
-  background-color: burlywood;
 }
 
 .logo,
@@ -52,10 +56,6 @@ li a {
   font-size: 24px;
 }
 
-.mainText {
-  font-size: 48px;
-}
-
 .secondaryText {
   font-size: 18px;
   color: #e5e7eb;
@@ -63,11 +63,64 @@ li a {
 
 /* Front Section */
 #front {
-  background-color: brown;
+  /* background-color: brown; */
+  padding: 16px;
+  /* border: 3px solid orange; */
+  gap: 8px;
+  display: flex;
 }
 
-/* *{
-    border: 5px solid red;
-    width:100%;
-    height:auto;
-} */
+#frontBox {
+  width: 50%;
+  padding: 14px 16px;
+  flex: 1;
+}
+
+#frontImage {
+  width: 50%;
+  padding: 14px 16px;
+  flex: 2;
+}
+img {
+  border: 2px solid orange;
+  width: 100%;
+  height: auto;
+}
+
+.mainText {
+  font-size: 48px;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: green;
+}
+
+/* Information section */
+
+#info {
+  background-color: #f9faf8;
+  /* border: 3px solid orange; */
+  padding: 16px;
+  gap: 8px;
+  display: flex;
+  text-align: center;
+}
+
+.randomInfo {
+  /* background-color: purple; */
+  text-align: center;
+  margin: 0 auto;
+  color:#1f2937;
+}
