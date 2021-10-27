@@ -119,8 +119,14 @@ button:hover {
 }
 
 .randomInfo {
-  /* background-color: purple; */
+  background-color: purple;
   text-align: center;
   margin: 0 auto;
   color:#1f2937;
+  display:block;
 }
+
+.info{
+    color: #1f2937;
+}
+
