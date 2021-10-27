@@ -4,11 +4,68 @@ body {
   background-color: #1f2937;
 }
 
+/* The Header */
 #header {
   width: 100%;
-  color: white;
   font-family: "Roboto";
 }
+
+#hero {
+  text-align: center;
+  margin: auto;
+  width: 65%;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.floatRight {
+  float: right;
+}
+
+.logo,
+.secondaryText {
+  background-color: burlywood;
+}
+
+.logo,
+.mainText {
+  color: #f9faf8;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.mainText {
+  font-size: 48px;
+}
+
+.secondaryText {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* Front Section */
+#front {
+  background-color: brown;
+}
+
 /* *{
     border: 5px solid red;
     width:100%;
