@@ -3,7 +3,10 @@
 }
 
 body {
-  background-color: #1f2937;
+  background-color: #ffffff;
+  padding:0;
+  margin:0;
+  /* text-align: center; */
 }
 
 /* The Header */
@@ -65,9 +68,11 @@ a:hover {
 #front {
   /* background-color: brown; */
   /* border: 3px solid orange; */
-  padding: 16px;
+  padding-left: 10%;
+  padding-right: 10%;
   gap: 8px;
   display: flex;
+  background-color: #1f2937;
 }
 
 #frontBox {
@@ -93,7 +98,19 @@ a:hover {
   font-size: 48px;
 }
 
-button {
+.signUp {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.bigSignUp {
   background-color: #3882f6;
   border: none;
   border-radius: 5px;
@@ -127,6 +144,8 @@ button:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .theInfo img {
@@ -140,6 +159,8 @@ button:hover {
 
 #quote{
   background-color: #e5e7eb;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .quoteText{
@@ -162,4 +183,49 @@ button:hover {
   padding-bottom: 20px;
   padding-right: 10px;
   text-align: right;
+}
+
+#signUp{
+  background-color: #3882F6 ;
+  margin: 50px 200px;
+  padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border-color: none;
+}
+
+.signUpButton{
+  text-align: left;
+  flex:1;
+}
+
+.bigSignUp{
+  color: #fff;
+  /* font-family: 'Roboto', arial; */
+  border: 2px solid #fff;
+  background-color: #3882F6;
+  padding: 5px 25px;
+  font-size: 15px;
+}
+
+.signUpButton h1{
+  color: #fff;
+  font-family: 'Roboto', arial;
+  padding: 0;
+  margin: 30px 0px 0px 50px;
+}
+
+.signUpButton p{
+  color: #fff;
+  opacity: 0.7;
+  margin: 5px 30px 30px 50px;
+
+}
+
+#footer{
+  text-align: center;
+  color:#f9faf8;
+  background-color: #1f2937;
+  padding:2em;
 }
