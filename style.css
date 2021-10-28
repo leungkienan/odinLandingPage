@@ -147,3 +147,19 @@ button:hover {
   flex-direction: column;
   padding:0 200px;
 }
+
+.quoteText h1{
+  font-size:36px;
+  font-weight: 300;
+  font-style: italic;
+  color:#1f2937;
+  text-align: center;
+}
+
+.quoteText p{
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  text-align: right;
+}
